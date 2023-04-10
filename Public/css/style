@@ -57,10 +57,10 @@ p {
 body {
   /* declarar en el body font family */
   font-family: Helvetica, sans-serif;
-  background: linear-gradient(#E53F43, #362D5A);
+  background: linear-gradient(#e53f43, #362d5a);
   /* Hereda el valor del elemento principal */
   background-position: inherit;
-  /* Si fixed es especificado, la imagen de fondo estarÃĄ fija en la pantalla y no se moverÃĄ con el bloque contenedor. */
+  /* Si fixed es especificado, la imagen de fondo estará fija en la pantalla y no se moverá con el bloque contenedor. */
   background-attachment: fixed;
   overflow: hidden;
   height: 50%;
@@ -103,18 +103,18 @@ input[type="mail"] {
   /* Microsoft Edge */
   color: white;
 }
-  /* DiseÃąo Scrollbar*/
-  body::-webkit-scrollbar {
-    width: 10px;
-    background: #021b79;
-  }
-    /* DiseÃąo Scrollbar*/
-  body::-webkit-scrollbar-thumb {
-    background: rgba(255,255,255, .2);
-    border-radius: 10px;
-    border-right: 2px solid #021b79;
-  }
-/* Estilo aplicado al botÃģn guardar*/
+/* Diseño Scrollbar*/
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #021b79;
+}
+/* Diseño Scrollbar*/
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  border-right: 2px solid #021b79;
+}
+/* Estilo aplicado al botón guardar*/
 main button {
   border-radius: 15px;
   padding: 10px 3px;
@@ -129,7 +129,7 @@ main button {
   font-weight: bold;
   overflow: hidden;
   transition: all ease 0.5s;
-  background: #362D5A;
+  background: #362d5a;
   color: white;
 }
 main button:after,
@@ -151,7 +151,7 @@ main button:before {
 }
 main button:hover {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-  background: #756DB0;
+  background: #756db0;
 }
 main button:hover:after,
 main button:hover:before {
