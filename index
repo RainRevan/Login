@@ -1,147 +1,76 @@
 <!-- HTML 5.0 -->
-
 <!DOCTYPE html>
-
 <!-- Idioma predeterminado español -->
-
 <html lang="es">
 
-  <head>
+<head>
+  <!--,Nota: charset Lee caracteres especiales-->
+  <meta charset="utf-8">
+  <!-- Descripción de la pagina para el buscador -->
+  <meta name="description" content="Esta página mostrara el formulario login para el Registro de procesos Aseguramiento de la calidad Académica" />
+  <!-- Apoyo para los robots de busqueda -->
+  <meta name"robots" content="index,follow" />
+  <!-- Titulo del formulario -->
+  <title>Login</title>
+  <!-- Escala adaptable del formulario para web y mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- llamamiento al CSS -->
+  <link rel="stylesheet" href="./Public/css/style.css" />
+  <link rel="icon" href="./Public/assets/icon.ico" type="image/ico" />
+</head>
 
-    <!--,Nota: charset Lee caracteres especiales-->
-
-    <meta charset="utf-8">
-
-    <!-- Descripción de la pagina para el buscador -->
-
-    <meta name="description" content="Esta página mostrara el formulario login para el Registro de procesos Aseguramiento de la calidad Académica" />
-
-    <!-- Apoyo para los robots de busqueda -->
-
-    <meta name"robots" content="index,follow" />
-
-    <!-- Titulo del formulario -->
-
-    <title>Login</title>
-
-    <!-- Escala adaptable del formulario para web y mobile -->
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- llamamiento al CSS -->
-
-    <link rel="stylesheet" href="./Public/css/style.css" />
-
-    <link rel="icon" href="./Public/assets/icon.ico" type="image/ico" />
-
-  </head>
-
-  <body>
-
-    <div class="resolucion">
-
-      <div class="desktop"></div>
-
-      <div class="tablet"></div>
-
-      <div class="movil"></div>
-
-    </div>
-
-    <header>
-
-      <figure>
-
-        <div align="left">
-
-          <!-- Ubicación del logotipo -->
-
-          <img src="./Public/assets/logo.png" width="20%" height="20%" alt="logotipo";
-
-        </div>
-
-      </figure>
-
-    </header>
-
-    <main>
-
-      <!-- Declaracion de la imagen como figura para mejor manipulacion -->
-
-      <figure>
-
-        <!-- Alineacion a la derecha -->
-
-        <div align="right">
-
-          <!-- Declaracion imagen  tamaño descripcion ubicación -->
-
-          <img src="./Public/assets/estudiantes.png" width="25%" height="25%" alt="Es una imagen de estudiantes de la universidad" style="float:right; padding-right: 100px;"
-
-        </div>
-
-      </figure>
-
-      <!-- Titulos y subtitulos -->
-
-      <h1>Procesos Dirección Nacional de Aseguramiento de la calidad Académica</h1>
-
-      <h2>Pueden diligenciar y consultar los formularios pertinentes</h2><br>
-
-       <div class="container">
-
-        <form action="" class="form" id="form">
-
-          <h1>Tus datos</h1>
-
-          <!-- etiqueta -->
-
-          <div class="form-input usuario">
-
+<body>
+  <div class="resolucion">
+    <div class="desktop"></div>
+    <div class="tablet"></div>
+    <div class="movil"></div>
+  </div>
+  <header>
+    <figure>
+      <div align="left">
+        <!-- Ubicación del logotipo -->
+        <img src="./Public/assets/logo.png" width="20%" height="20%" alt="logotipo" ; </div>
+    </figure>
+  </header>
+  <main>
+    <!-- Declaracion de la imagen como figura para mejor manipulacion -->
+    <figure>
+      <!-- Alineacion a la derecha -->
+      <div align="right">
+        <!-- Declaracion imagen  tamaño descripcion ubicación -->
+        <img src="./Public/assets/estudiantes.png" width="25%" height="25%" alt="Es una imagen de estudiantes de la universidad" style="float:right; padding-right: 100px;" </div>
+    </figure>
+    <!-- Titulos y subtitulos -->
+    <h1>Procesos Dirección Nacional de Aseguramiento de la calidad Académica</h1>
+    <h2>Pueden diligenciar y consultar los formularios pertinentes</h2><br>
+    <div class="container">
+      <form action="" class="form" id="form">
+        <h1>Tus datos</h1>
+        <!-- etiqueta -->
+        <div class="form-input usuario">
           <label for="Usuario"></label>
-
           <!-- tipo , texto interno y obligatoriedad -->
-
-          <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Nombre de Usuario" required/><br>
-
-          </div>
-
-          <div class="form-input nombre">
-
+          <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Nombre de Usuario" required /><br>
+        </div>
+        <div class="form-input nombre">
           <label for="contrasena"></label>
-
           <input type="text" class="form-control" id="contrasena" name="contrasena" placeholder="Contraseña" autocomplete="name" required /><br>
-
-          </div>
-
-          <div class="form-termsandconditions terminosycondiciones">
-
+        </div>
+        <div class="form-termsandconditions terminosycondiciones">
           <div align="center">
-
-          <p><input type="checkbox" id="terminosycondiciones"required/>
-
-          <label for="Terminosycondiciones">He leído y acepto los <a href="politicadeprivacidad.html">Términos y condiciones</a></label></p>
-
+            <p><input type="checkbox" id="terminosycondiciones" required />
+              <label for="Terminosycondiciones">He leído y acepto los <a href="politicadeprivacidad.html">Términos y condiciones</a></label>
+            </p>
           </div>
-
-        </form>
-
-          <a href="proyecto.html"><Registrarme /a><button type="submit" name="BtnRegistrarme" id="BtnRegistrarme">Registrarme</button>
-
-      </div>
-
-    </main>
-
-    <!-- Titulos y subtitulos <script src="./Public/js/Index.js"></script>-->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <script src="./Public/js/app.js"></script>
-
-    <script src="./Public/js/index.js"></script>
-
-  </body>
+      </form>
+      <a href="proyecto.html">
+        <Registrarme /a><button type="submit" name="BtnRegistrarme" id="BtnRegistrarme">Registrarme</button>
+    </div>
+  </main>
+  <!-- Titulos y subtitulos <script src="./Public/js/Index.js"></script>-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="./Public/js/app.js"></script>
+  <script src="./Public/js/index.js"></script>
+</body>
 
 </html>
-
- 
